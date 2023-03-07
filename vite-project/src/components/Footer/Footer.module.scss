@@ -1,0 +1,33 @@
+@import '../../styles/Variables.scss';
+
+.footer_w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_ul {
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+    li {
+        margin-right: 10px;
+    }
+    a {
+        font-size: 14px;
+        text-decoration: none;
+        transition: all .3s ease-out;
+        color: $tgray;
+        &:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer_copy {
+    font-size: 14px;
+    margin-top: 8px;
+    color: $tgray;
+}

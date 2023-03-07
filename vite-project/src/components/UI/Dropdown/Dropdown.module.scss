@@ -1,0 +1,17 @@
+@import "../../../styles/Variables.scss";
+
+.dropdown {
+    display: none;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    position: absolute;
+    margin-top: 10px;
+    a {
+        cursor: pointer;
+        color: $white-gray;
+        padding-right: 50px;
+    }
+}
+
+.dropdown_show {
+    display: flex;
+}

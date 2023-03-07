@@ -1,0 +1,40 @@
+@import "./Variables.scss";
+
+.startpage {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.startpage_w {
+    width: 70%;
+    padding: 20px 30px;
+    background-color: white;
+    border: 1px solid #e2e2e2;
+}
+
+.startpage_start {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.startpage_middle {
+    margin: 15px 0;
+    text-align: center;
+    color: $gray;
+}
+
+.startpage_list {
+    div {
+        color: $dark;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+    .startpage_w {
+        width: 90%;
+    }
+}

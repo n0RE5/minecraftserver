@@ -1,0 +1,51 @@
+@import "./Variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: $aqua;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+body {
+    background: url('../assets/server-1.jpg') no-repeat center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contain {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixed_container {
+    width: 1320px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 575px) {
+    .contain {
+        width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+@import '../../../styles/Variables.scss';
+
+.li {
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    a {
+        font-size: 16px;
+        padding: 30px 18px;
+        transition: all .25s ease-out;
+        text-decoration: none;
+        color: $gray;
+        &:hover {
+            color: black;
+            text-decoration: underline;
+        }
+    }
+}
+
+.hoverbox {
+    transition: all .25s ease-out;
+    transform: translateY(-10px);
+    height: 8px;
+    width: 100%;
+    position: absolute;
+    background: red;
+}
+
+.hoverbox_active {
+    transform: translateY(0);
+}
+
+.hoverbox_primary {
+    transform: translateY(0);
+    background-color: $aqua;
+}

@@ -1,0 +1,8 @@
+@import '../../../styles/Variables.scss';
+
+.card {
+    padding: 16px 24px;
+    background-color: $darkblack;
+    box-shadow: 0 .125rem .25rem rgba(173, 181, 189, .075);
+    border-radius: 6px;
+}
